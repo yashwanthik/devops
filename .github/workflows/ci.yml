@@ -16,4 +16,7 @@ jobs:
         run: echo "this is my first pipeline"
 
       - name: step2
-        run: echo "this is my second pipeline"   
+        run: echo "this is my second pipeline"
+
+      - name: pipeline break
+        run: exit 1     
